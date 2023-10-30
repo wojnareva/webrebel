@@ -1,3 +1,21 @@
 body {
 	margin: 0;
+	font-family: 'Lato', sans-serif;;
+}
+
+section {
+	height: 100px;
+}
+
+.section-1 {
+	background: #f25f5c;
+	color: #fdeaea;
+}
+
+.section-2 {
+	background: #f2ecbd;
+}
+
+.section-3 {
+	background: #8abeb2;
 }
