@@ -1,0 +1,25 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	background: #fff url('../img/background.jpg')50% 30px no-repeat;
+}
+
+.logo{
+	margin: 0;
+	position: relative;
+	top: -7px;
+}
+
+.logo a {
+	background: url('../img/logo.jpg') left top no-repeat;
+	display: block;
+	width: 960px;
+	height: 105px;
+	text-indent: -9999px;
+}
+
+
+.post-header{
+	text-align: center;
+}
