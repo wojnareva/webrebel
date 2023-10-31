@@ -1,0 +1,20 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+	background: #fff url('background.jpg') 50% 30px no-repeat;
+	font-family: georgia; 
+}
+
+.logo{
+	margin: 0;
+	position: relative;
+	top: -7px;
+}
+
+.logo a {
+	background: url('logo.jpg') left top no-repeat;
+	display: block;
+	width: 960px;
+	height: 105px;
+	text-indent: -9999px;
+}

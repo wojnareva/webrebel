@@ -1,0 +1,68 @@
+PROGRAM prgMain
+
+  VAR_INPUT
+
+  END_VAR
+
+  VAR_OUTPUT
+
+  END_VAR
+
+  VAR
+
+     casovac: TON;
+
+     naruseni: BOOL := FALSE;
+
+  END_VAR
+
+ 
+
+  // Kontrola stavu oken a dveří
+
+  IF oknoA OR oknoB OR oknoC OR oknoD OR dvereA THEN
+
+      alarm_status := TRUE;
+
+  ELSE
+
+      alarm_status := FALSE;
+
+  END_IF;
+
+ 
+
+  // Kontrola aktivity alarmu
+
+  IF alarm_aktive THEN
+
+      IF alarm_status THEN
+
+          naruseni := TRUE;
+
+          casovac(IN:= TRUE, PT:= T#5s);  // Start časovače s přednastaveným časem 5 sekund
+
+          IF casovac.Q THEN    // Pokud časovač dosáhl nastaveného času
+
+              poplach := TRUE;
+
+              alarm := poplach  AND System_S.PERIOD_PULSE_500MS;
+
+          END_IF;
+
+      END_IF;
+
+  ELSE
+
+      naruseni := FALSE;
+
+      casovac(IN:= FALSE);  // Reset časovače
+
+      poplach := FALSE;
+
+  END_IF;
+
+ 
+
+END_PROGRAM
+
