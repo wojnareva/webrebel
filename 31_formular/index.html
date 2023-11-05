@@ -17,11 +17,44 @@
  </section>   
 
  <section class="section-2">
-<div class="container">
+	<form action="#" method="get" class="container">
+		<input type="text" name="name" placeholder="jméno"/>
+		<input type="email" name="mail" value="@"/>
+		<input type="password" name="heslo" />
+		<input type="date" name="date" placeholder="datum"/>
+		
+		<select name="serial">
+			<option value="1">moznost 1</option>
+			<option value="2">dvojka</option>
+			<option value="3" selected>trojka</option>
+			
+		</select>
+		
+		<textarea name="message" rows="6">
+		</textarea>
+		<input type="checkbox" name="remember" id="pamatuj" checked/>
+		<label for="pamatuj">
+			pamatuj si me
+		</label>
+		
+		<label>
+			<input type="checkbox" name="remember" id="pamatuj"/>
+			zapamatuj si me
+		</label>
+	
+		<label>
+			<input type="radio" name="day" id="Friday" />Friday
+		</label>
+		<label>
+			<input type="radio" name="day" id="Sunday" checked/> Nedele
+		</label>
+		
+		<!-- 	<input type="submit" value="odeslat"/> -->
+		<button>odeslat cudlik</button>
+	</form>
 
 </div>
  </section>
-
  <section class="section-3">
 <div class="container">
 
