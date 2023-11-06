@@ -1,7 +1,7 @@
 body {
 	color: #333;
 	font: normal 18px/30px 'Lato', sans-serif;
-	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 .container{
 	width: 760px;
@@ -24,4 +24,44 @@ section {
 
 .section-3 {
 	background: #8abeb2;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+button,
+textarea {
+	background: #fff;
+	border: none;
+	width: 300px;
+	padding: 15px 20px;
+	margin: 15px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,.12);
+}
+
+input:focus,
+textarea:focus {
+	outline: 2px solid #8abeb2;
+}
+
+textarea{
+	width: 675px;
+}
+
+button{
+	color: #fdeaea;
+	background: #f25f5c;
+}
+
+label{
+	display: block;
+	text-align: left;
+	cursor: pointer;
+}
+
+/*input[type="checkbox"]{
+	text-align: left;
+}*/
+
+label[for="pamatuj"]{
+	margin-bottom: 25px;
 }
