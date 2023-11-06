@@ -1,25 +1,41 @@
 body {
-	width: 960px;
+	max-width: 1920px;
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
-	background: #fff url('../img/background.jpg')50% 30px no-repeat;
+	
 }
 
 .logo{
 	margin: 0;
 	position: relative;
 	top: -7px;
+	left: 25%; 
 }
 
 .logo a {
 	background: url('../img/logo.jpg') left top no-repeat;
 	display: block;
-	width: 960px;
-	height: 105px;
+	max-width: 100%;
+	height: 98px;
 	text-indent: -9999px;
+}
+
+.cover {
+	background: #fff url('../img/background.jpg')50% 30px no-repeat;
+	max-width: 1920px;
+	height: 938px;
+	margin-top: -85px;
 }
 
 
 .post-header{
 	text-align: center;
+}
+
+.post-title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	line-height: 56px;
+	font-weight: 800;
+	margin: 0;
 }
