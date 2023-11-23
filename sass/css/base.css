@@ -1,17 +1,32 @@
-/*
-$color-main: #000;
-$color-highlight: hotpink;
-$font-size: 15px;
-*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #fff;
   background: #2f313c;
   text-align: center;
   margin: 0;
 }
+body font {
+  size: 100%;
+  family: Montserrat, sans-serif;
+  weight: normal;
+}
 
 a {
   color: #fff;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=base.css.map */
