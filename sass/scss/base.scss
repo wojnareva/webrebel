@@ -32,14 +32,12 @@ body {
     text-align: center;
     margin: 0;
 
-    font{
+    font:{
         size: $font-size-base;
         family:$font-family-sans;
         weight: normal;
     }
 }
-
-
 
 a {
     color: $color-text;
@@ -52,3 +50,23 @@ img{
     vertical-align: middle;
 }
 
+.menu {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+//
+// TYPOGRAPHY 
+//-------------------------
+
+h1{
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+
+//
+// SIDEBAR
+//-------------------------
