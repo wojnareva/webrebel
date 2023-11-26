@@ -27,9 +27,31 @@ img {
   vertical-align: middle;
 }
 
+.menu {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.menu li, .menu a {
+  display: inline-block;
+}
+
 h1 {
   font-size: 75px;
   text-transform: uppercase;
+}
+
+.site-header {
+  background: #fff;
+}
+
+nav a {
+  color: #777;
+  font-size: 13px;
+  padding: 24px 8px;
+}
+nav a:hover, nav a:focus {
+  color: #9d9d9d;
 }
 
 /*# sourceMappingURL=base.css.map */

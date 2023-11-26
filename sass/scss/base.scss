@@ -72,5 +72,25 @@ h1{
 
 
 //
-// SIDEBAR
+// SITE HEADER
 //-------------------------
+
+.site-header {
+    background: #fff;
+}
+
+
+nav {  
+
+    a {
+        color: $color-muted;
+        font-size: 13px;
+        padding: 24px 8px;
+
+        &:hover, &:focus{
+            color: lighten($color-muted, 15%)
+        }
+    }
+}
+
+
