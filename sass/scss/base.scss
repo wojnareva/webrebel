@@ -11,6 +11,8 @@ $color-text: #fff;
 $color-muted: #777;
 
 $color-bg-body: #2f313c;
+$color-bg-body: #2f313c;
+
 $color-bg-gallery: #ffd256;
 
 //
@@ -42,6 +44,7 @@ body {
 a {
     color: $color-text;
     text-decoration: none;
+    transition: .2s all ease-in-out;
 }
 
 img{
