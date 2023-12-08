@@ -1,0 +1,17 @@
+body{
+	color: rgb(255,255,255);
+	background: rgb(143,210,209) ;
+	font-family: Montserrat, san-serif;
+}
+
+nav{
+	background: rgb(255,255,255) ;
+}
+
+.menu a, .menu li {
+	display: inline-block;
+}
+
+.menu a {
+	color: rgb(219,219,219) ;
+}
