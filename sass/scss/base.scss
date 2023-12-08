@@ -1,11 +1,12 @@
-
-
 //VARIABLES
 //------------------------------------
 
+
 $font-size-base: 100%;
-$font-family-sans: Montserrat, sans-serif;
-$font-family-serif: 'Big Caslon', serif;
+$font-family-sans: Montserrat,
+sans-serif;
+$font-family-serif: 'Big Caslon',
+serif;
 
 $color-text: #fff;
 $color-muted: #777;
@@ -16,14 +17,17 @@ $color-bg-body: #2f313c;
 $color-bg-gallery: #ffd256;
 
 //
-// GENERAL
+// k
 //-------------------------
 
 // border-box
-html{
+html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -34,9 +38,9 @@ body {
     text-align: center;
     margin: 0;
 
-    font:{
+    font: {
         size: $font-size-base;
-        family:$font-family-sans;
+        family: $font-family-sans;
         weight: normal;
     }
 }
@@ -47,7 +51,7 @@ a {
     transition: .2s all ease-in-out;
 }
 
-img{
+img {
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
@@ -58,7 +62,8 @@ img{
     padding-left: 0;
     list-style: none;
 
-    li, a {
+    li,
+    a {
         display: inline-block;
     }
 }
@@ -68,7 +73,7 @@ img{
 // TYPOGRAPHY 
 //-------------------------
 
-h1{
+h1 {
     font-size: 75px;
     text-transform: uppercase;
 }
@@ -83,17 +88,16 @@ h1{
 }
 
 
-nav {  
+nav {
 
     a {
         color: $color-muted;
         font-size: 13px;
         padding: 24px 8px;
 
-        &:hover, &:focus{
+        &:hover,
+        &:focus {
             color: lighten($color-muted, 15%)
         }
     }
 }
-
-
